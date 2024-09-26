@@ -11,6 +11,20 @@ a { color:blue; text-decoration: none;}
     border-top: solid 1px #cdcdcd;
     border-bottom: solid 1px #cdcdcd;
 }
+.pesquisa {
+    border-left: solid 200px transparent;
+    position: relative;
+    top: -50px;
+}
+.input {
+    width: 300px;
+    height: 20px;
+}
+.button{
+    border-left: solid 510px transparent;
+    position: relative;
+    top: -75px;
+}
 .content {
     max-width: 1440px;
     margin: auto;
@@ -22,9 +36,37 @@ a { color:blue; text-decoration: none;}
     padding-left: 1rem;
     padding-right: 1rem;
 }
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+}
 .footer {
     min-height: 100px;
     border-top: solid 1px #cdcdcd;
+}
+.container img{
+    float: left;
+    margin-left: 20px;
+    max-width: 200px;
+}
+.impala {
+    text-align: center;
+}
+.impala img{
+    max-width: 250px;
+}
+.protagonistas img{
+    float: right;
+    margin-left: 20px;
+    max-width: 200px;
+}
+.table2 img{
+    max-width: 150px;
 }
 .anchors {
     border-left: solid 1px #cdcdcd;
